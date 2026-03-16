@@ -1,0 +1,73 @@
+# manifest updated in v64
+project:
+  title: Architecture, découpage et pilotage d'équipes hybrides humain+IA
+  language: fr
+  front_matter_entry: preface.md
+release_metadata:
+  current_release: v68
+  next_eval_release: v71
+release: v68
+next_eval_release: v71
+chapter_13_strategy: recreated_as_quanta_1d
+chapters:
+- id: '01'
+  title: Histoire du métier de codeur
+  path: 01-histoire-du-metier/chapitre.md
+- id: '02'
+  title: Évolution historique du code
+  path: 02-evolution-du-code/chapitre.md
+- id: '03'
+  title: Évolution historique des IA
+  path: 03-histoire-des-ia/chapitre.md
+- id: '04'
+  title: Faux hype et limites des LLM
+  path: 04-faux-hype-et-limites-des-llm/chapitre.md
+- id: '05'
+  title: Le nailgun et le changement de posture
+  path: 05-nailgun-et-changement-de-posture/chapitre.md
+- id: '06'
+  title: Repenser un projet de développement informatique
+  path: 06-repenser-un-projet/chapitre.md
+- id: '07'
+  title: Scinder le travail proprement
+  path: 07-decoupage-du-travail/chapitre.md
+- id: '08'
+  title: Maintenir une collaboration orthogonale et propre
+  path: 08-collaboration-orthogonale/chapitre.md
+- id: '09'
+  title: Piloter les collègues IA
+  path: 09-pilotage-agents/chapitre.md
+- id: '10'
+  title: Limiter les hallucinations et maintenir la validation
+  path: 10-hallucinations-et-validation/chapitre.md
+- id: '11'
+  title: Maintenir un contexte propre et court
+  path: 11-contexte-propre-et-court/chapitre.md
+- id: '12'
+  title: Exploiter la structure projet et les couches de prompt
+  path: 12-prompt-layering-openai/chapitre.md
+- id: '13'
+  title: Penser en quanta 1D
+  path: 13-quanta-1d/chapitre.md
+- id: '14'
+  title: Use case 1 — Besoin flou vers architecture d'agents
+  path: 14-use-case-1/chapitre.md
+- id: '15'
+  title: Use case 2 — Reprise d'un projet mal structuré
+  path: 15-use-case-2/chapitre.md
+- id: '16'
+  title: Devoir final — Troisième use case
+  path: 16-devoir-final/chapitre.md
+collaboration_sequence:
+  - README.md
+  - preface.md
+  - conventions.md
+  - WORKFLOW.md
+  - PUBLICATION_POLICY.md
+  - BOOK_BLUEPRINT.md
+  - faculta_boss.md
+  - faculta_redacteur.md
+  - EDITORIAL_MARKERS.md
+  - RELEASE_RUNWAY.md
+  - QUEUE.md
+release_hygiene: v68

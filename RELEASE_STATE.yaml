@@ -1,0 +1,22 @@
+current_release: v68
+previous_release: v67
+next_release: v69
+next_eval_release: v71
+current_mode: local_evaluation_and_handoff
+active_focus: evaluer v67, confirmer la fermeture locale du chapitre 13, renvoyer la redaction sur 11.02 puis 02.01
+chapter_13_status: locally_closed_after_v67
+chapter_13_meaning: quanta_1d_one_dimension_at_a_time
+faculta_boss_status: present_and_optional
+faculta_redacteur_status: available_and_used_for_orthogonal_points
+release_line_note: v62_non_documentee_dans_historique_saut_assume_depuis_la_release_recue_v63
+readiness_note: proche_de_l_edition_mais_pas_encore_prete_tant_que_02_01_reste_placeholder_et_que_les_tests_manuels_de_chapitres_ne_sont_pas_recrees
+open_source_debts:
+  - 11-contexte-propre-et-court/02-Résumer-l'état-sans-traîner-l'historique.md
+  - 02-evolution-du-code/01-De-l'assembleur-aux-langages-haut-niveau.md
+constraints:
+  - do_not_touch_15_use_case_2
+  - do_not_touch_16_devoir_final
+  - keep_publication_near_isomorphic
+  - no_return_to_one_day_logic
+  - optimize_form_and_structure_without_reopening_core_scope
+  - governance_by_chatgpt_content_by_redaction
